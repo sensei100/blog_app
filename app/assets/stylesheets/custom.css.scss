@@ -2,44 +2,46 @@
 @import "bootstrap";
 
 /*Color Palette
-Peach blossom:  #fcf5cf
-Bright lavender: #c698f2
-Dark purple:  #571543
-Medium green: #749455
-Dark green:  #364f16
+Cream:  #F4EBCC
+Aqua: #58A39F
+Mist:  #A0C7B5
+Light orange: #FFC478
+Dark orange:  #F4852C
 */
 
 body {
-  background: #FCF5CF;
-  color: #571543;
+  background: #F4EBCC;
+  color: #F4852C;
   padding-top: 80px;
 }
 
 .btn {
-  background: #364F16;
-  color: #FCF5CF;
+  background: #F4852C;
+  border: 1px solid #F4852C;
+  color: #F4EBCC;
 }
 
 .btn:hover {
-  background: #571543;
-  color: #FCF5CF;
+  background: #A0C7B5;
+  border: 1px solid #A0C7B5;
+  color: #F4852C;
 }
 
 // Navbar styling
 .navbar {
- background: #749455;
+ background: #58A39F;
  padding-bottom: 20px;
 }
 
 .navbar-default .navbar-brand {
-  color: #FCF5CF;
+  color: #F4EBCC;
   font-size: 150%;
   font-weight: bold;
   padding-top: 25px;
 }
 
 .navbar-default .navbar-brand:hover {
-  color: #571543;
+  color: #FFC478;
 }
 
 .navbar-default {
@@ -64,5 +66,5 @@ body {
 
 // Form styling
 .page-heading, div > label {
-  color: #571543;
+  color: #F4852C;
 }
