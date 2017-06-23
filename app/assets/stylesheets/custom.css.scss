@@ -1,2 +1,68 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+/*Color Palette
+Peach blossom:  #fcf5cf
+Bright lavender: #c698f2
+Dark purple:  #571543
+Medium green: #749455
+Dark green:  #364f16
+*/
+
+body {
+  background: #FCF5CF;
+  color: #571543;
+  padding-top: 80px;
+}
+
+.btn {
+  background: #364F16;
+  color: #FCF5CF;
+}
+
+.btn:hover {
+  background: #571543;
+  color: #FCF5CF;
+}
+
+// Navbar styling
+.navbar {
+ background: #749455;
+ padding-bottom: 20px;
+}
+
+.navbar-default .navbar-brand {
+  color: #FCF5CF;
+  font-size: 150%;
+  font-weight: bold;
+  padding-top: 25px;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #571543;
+}
+
+.navbar-default {
+  border: #364F16;
+}
+
+.navbar-nav {
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+.navbar-default .navbar-nav li > a {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 130%;
+
+}
+
+.navbar-default .navbar-nav li > a:hover {
+  color: #ff0000;
+}
+
+// Form styling
+.page-heading, div > label {
+  color: #571543;
+}
