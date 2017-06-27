@@ -24,7 +24,7 @@ body {
 .btn:hover {
   background: #A0C7B5;
   border: 1px solid #A0C7B5;
-  color: #F4852C;
+  color: #F4EBCC;
 }
 
 // Navbar styling
@@ -71,14 +71,18 @@ body {
 
 //Listing articles styling
 .article-title {
-  font-size: 2.5em;
+  font-size: 2.0em;
   font-weight: bold;
   margin-bottom: 0.8em;
   padding-left: 0.7em;
 }
 
+.article-title a {
+  color: #58A39F;
+}
+
 .article-body {
-  font-size: 1.5em;
+  font-size: 1.4em;
   padding-left: 1.2em;
 }
 
