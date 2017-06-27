@@ -68,3 +68,30 @@ body {
 .page-heading, div > label {
   color: #F4852C;
 }
+
+//Listing articles styling
+.article-title {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 0.8em;
+  padding-left: 0.7em;
+}
+
+.article-body {
+  font-size: 1.5em;
+  padding-left: 1.2em;
+}
+
+.author {
+  color: #58A39F;
+  padding-left: 25px;
+}
+
+.article-detail {
+  color: #0000ff;
+  margin-top: 20px;
+}
+
+#new-article-btn {
+  margin: 20px;
+}
