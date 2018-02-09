@@ -64,6 +64,16 @@ body {
   color: #ff0000;
 }
 
+.navbar-default .navbar-nav > li > a.header-link {
+  color: #FFC478;
+  font-size: 125%;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a.header-link:hover  {
+  color: #F4EBCC ;
+}
+
 // Form styling
 .page-heading, div > label {
   color: #F4852C;
