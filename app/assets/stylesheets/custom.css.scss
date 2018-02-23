@@ -12,6 +12,7 @@ Dark blue:  031634
 body {
   background: #E8DDCB;
   color: #033649;
+  font-family: 'Raleway';
   padding-top: 80px;
 }
 
@@ -155,6 +156,10 @@ body {
 //Editing article styling
 #edit-button {
   margin: 10px;
+}
+
+#user-details {
+  color: #E8DDCB;
 }
 
 .alert {
