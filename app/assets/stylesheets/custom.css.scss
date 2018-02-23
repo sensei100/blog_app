@@ -2,46 +2,46 @@
 @import "bootstrap";
 
 /*Color Palette
-Cream:  #F4EBCC
-Aqua: #58A39F
-Mist:  #A0C7B5
-Light orange: #FFC478
-Dark orange:  #F4852C
+Tan:  E8DDCB
+Aqua: 036564
+Brown:  CDB380
+Medium blue: 033649
+Dark blue:  031634
 */
 
 body {
-  background: #F4EBCC;
-  color: #F4852C;
+  background: #E8DDCB;
+  color: #033649;
   padding-top: 80px;
 }
 
 .btn-primary {
-  background: #F4852C;
-  border: 1px solid #F4852C;
-  color: #F4EBCC;
+  background: #036564;
+  border: 1px solid #033649;
+  color: #E8DDCB;
 }
 
 .btn-primary:hover {
-  background: #A0C7B5;
-  border: 1px solid #A0C7B5;
-  color: #F4EBCC;
+  background: #033649;
+  border: 1px solid #033649;
+  color: #E8DDCB;
 }
 
 // Navbar styling
 .navbar {
- background: #58A39F;
+ background: #031634;
  padding-bottom: 20px;
 }
 
 .navbar-default .navbar-brand {
-  color: #F4EBCC;
+  color: #E8DDCB;
   font-size: 150%;
   font-weight: bold;
   padding-top: 25px;
 }
 
 .navbar-default .navbar-brand:hover {
-  color: #FFC478;
+  color: #CDB380;
 }
 
 .navbar-default {
@@ -65,18 +65,18 @@ body {
 }
 
 .navbar-default .navbar-nav > li > a.header-link {
-  color: #FFC478;
+  color: #CDB380;
   font-size: 125%;
   font-weight: bold;
 }
 
 .navbar-default .navbar-nav > li > a.header-link:hover  {
-  color: #F4EBCC ;
+  color: #E8DDCB ;
 }
 
 // Form styling
 .page-heading, div > label {
-  color: #F4852C;
+  color: #033649;
 }
 
 //Listing articles styling
@@ -88,7 +88,7 @@ body {
 }
 
 .article-title a {
-  color: #58A39F;
+  color: #031634;
 }
 
 .article-body {
@@ -97,7 +97,7 @@ body {
 }
 
 .author {
-  color: #58A39F;
+  color: #031634;
   padding-left: 25px;
 }
 
@@ -137,7 +137,7 @@ body {
 
 //Sign up -- Sign in
 .sign-link a {
-  color: #58A39F;
+  color: #031634;
 }
 
 //Editing article styling
