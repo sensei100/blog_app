@@ -24,7 +24,15 @@ data-target="#bs-example-navbar-collapse-1">
           <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
               <li class="signup"><%= link_to "Authors", "#", class: "header-link" %></li>
-              <li class="signup"><%= link_to "Sign up", new_user_registration_path, class: "header-link" %></li>
+              <% unless user_signed_in? %>
+                <li class="signup"><%= link_to "Sign up", new_user_registration_path, class: "header-link" %></li>
+                <li class="sigup"><%= link_to "Sign in", new_user_session_path, class: "header-link" %></li>
+              <% end %>
+              <% if user_signed_in? %>
+                <p class="navbar-text">
+                  Signed in as <%= "#{current_user.email}" %>
+                </p>
+              <% end %>
               <li class="signup"><%= link_to "Sign out", destroy_user_session_path, method: :delete, class: "header-link" %></li>
             </ul>
           </div>
