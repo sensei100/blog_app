@@ -140,6 +140,18 @@ body {
   color: #031634;
 }
 
+#error_explanation {
+  background-color: rgba(3,101,100, 0.5);
+  color: #031634;
+  text-align: left;
+  padding: 5px 20px;
+  margin-bottom: 30px;
+}
+
+#error_explanation h2 {
+  font-size: 150%;
+}
+
 //Editing article styling
 #edit-button {
   margin: 10px;
