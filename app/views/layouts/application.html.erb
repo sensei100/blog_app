@@ -22,7 +22,7 @@ data-target="#bs-example-navbar-collapse-1">
             <%= link_to "Blog App", root_path, class: "navbar-brand" %>
           </div>
           <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav navbar-right">
               <li class="signup"><%= link_to "Authors", "#", class: "header-link" %></li>
               <li class="signup"><%= link_to "Sign up", new_user_registration_path, class: "header-link" %></li>
               <li class="signup"><%= link_to "Sign out", destroy_user_session_path, method: :delete, class: "header-link" %></li>
