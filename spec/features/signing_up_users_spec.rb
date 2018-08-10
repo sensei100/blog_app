@@ -23,5 +23,4 @@ RSpec.feature "Signup users" do
     #expect(page).to have_content("You have not signed up successfully")
 
   end
-
 end
